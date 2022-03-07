@@ -1,0 +1,195 @@
+body {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    height: 600px;
+}
+
+section {
+    text-align: center;
+}
+
+#myLife {
+    font-size: 40px;
+    color: white;
+ }
+
+h3 {
+     margin: 20px;
+     padding: 0.1px;
+ }
+
+h2 {
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h1 {
+    margin: 30px;
+    padding: 10px;
+}
+ 
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#places div {
+    margin: 5px;
+    padding: 5px;
+}
+
+#hobbies div { 
+    text-align: center; 
+}
+
+#hobbies ul { 
+    display: inline-block; text-align: left; 
+    font-size: 16px;
+}
+
+#myLife ul { 
+    display: flex;
+    background: rgb(5, 5, 5);
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    padding-right: 38px;
+    margin: 15px;
+}
+
+#myLife ul li {
+    list-style: none;
+}
+
+#myLife ul li a {
+    color: rgb(31, 226, 226);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#myLife ul li a:hover {
+    color:rgb(240, 128, 0);
+}
+
+#hobbies {
+    text-align: center;
+    display: center;
+    margin-bottom: 40px;
+}
+
+#me {
+    display:center;
+    font-size: 20px;
+    color:white;
+    border-color: white;
+}
+
+p {
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    display: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+#myInsta p {
+    margin-top: px;
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    padding-top: 1px;
+
+}
+
+#myInsta a {
+    padding-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color:khaki;
+}
+
+#mySpoti a {
+    padding-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color:khaki;
+}
+
+#mySpoti {
+    margin: 40px;
+}
+
+#myInsta {
+    margin: 40px;
+}
+
+
+.flex-container {
+    justify-content: space-evenly;
+    margin: 60px;
+    margin-top: 80px;
+    padding-bottom: 10px;
+  }
+
+table {
+    display: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 50px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.spoti {
+    background-color: rgb(3, 3, 3);
+    border: none;
+}
+
+.spoti:hover {
+    cursor: pointer;
+}
+
+.spoti img {
+    height: 70px;
+    padding:20px;
+    margin-bottom: 40px;
+}
+
+.insta {
+    background-color: rgb(3, 3, 3);
+    border: none;
+}
+
+.insta:hover {
+    cursor: pointer;
+}
+
+.insta img {
+    height: 60px;
+    padding:24px;
+    margin-bottom: 40px;
+
+}
