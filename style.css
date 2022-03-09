@@ -25,6 +25,7 @@ section {
 h3 {
      margin: 20px;
      padding: 0.1px;
+     color: rgb(240, 128, 0);
  }
 
 h2 {
@@ -60,12 +61,14 @@ h1 {
 
 #myLife ul { 
     display: flex;
-    background: rgb(5, 5, 5);
+    background: black;
     justify-content: space-around;
     padding-top: 12px;
     padding-bottom: 24px;
     padding-right: 38px;
     margin: 15px;
+    margin-bottom: 40px;
+
 }
 
 #myLife ul li {
@@ -80,6 +83,10 @@ h1 {
 
 #myLife ul li a:hover {
     color:rgb(240, 128, 0);
+}
+
+#music th {
+    color: rgb(240, 128, 0);
 }
 
 #hobbies {
@@ -129,11 +136,11 @@ p {
 }
 
 #mySpoti {
-    margin: 40px;
+    margin: 20px;
 }
 
 #myInsta {
-    margin: 40px;
+    margin: 20px;
 }
 
 
@@ -164,7 +171,7 @@ table, th, td {
 }
 
 .spoti {
-    background-color: rgb(3, 3, 3);
+    background-color: black;
     border: none;
 }
 
@@ -173,13 +180,13 @@ table, th, td {
 }
 
 .spoti img {
-    height: 70px;
-    padding:20px;
-    margin-bottom: 40px;
+    height: 72px;
+    padding: 17px;
+    margin-bottom: 80px;
 }
 
 .insta {
-    background-color: rgb(3, 3, 3);
+    background-color: black;
     border: none;
 }
 
@@ -191,5 +198,4 @@ table, th, td {
     height: 60px;
     padding:24px;
     margin-bottom: 40px;
-
 }
