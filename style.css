@@ -24,13 +24,10 @@ section {
 
 #myLife ul { 
     display: flex;
-    background: black;
-    justify-content: space-around;
-    padding-top: 12px;
+    justify-content:space-around;
     padding-bottom: 24px;
-    padding-right: 38px;
-    margin: 15px;
-    margin-bottom: 40px;
+    padding-left: 10px;
+    margin: 10px;
 
 }
 
@@ -53,6 +50,7 @@ h3 {
      padding-top: 30px;
      color: rgb(240, 128, 0);
      font-size: 18px;
+     font-style: italic;
  }
 
 h2 {
@@ -65,7 +63,7 @@ h1 {
 }
 
 img {
-    height: 500px;
+    height: 550px;
 }
 
 .center{
