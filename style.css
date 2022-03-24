@@ -235,9 +235,10 @@ img {
 }
 
 #mybabies img {
-    border: 8px solid rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
     border-collapse: collapse;
     height:480px;
+    margin: 10px;
 }
 
 table {
@@ -261,6 +262,10 @@ table, th, td {
 
 #spoti:hover {
     cursor: pointer;
+    animation: bounce;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 #spoti img {
@@ -272,15 +277,36 @@ table, th, td {
 
 #insta:hover {
     cursor: pointer;
+    animation: bounce;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 #insta img {
     height: 70px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-bottom: 40px;
 }
 
-#myBtn {
+@keyframes bounce {
+    10% {
+        height: 10px;
+    }
+    50% {
+        height: 10px;
+        transform: translateY(30px);  
+    }
+    100% {
+        transform: translateY(0px); 
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gotopbtn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -289,11 +315,11 @@ table, th, td {
     background-color: rgb(235, 19, 127);
     color: black; 
     cursor: pointer; 
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     font-size: 14px; 
   }
   
-  #myBtn:hover {
+  .gotopbtn:hover {
     background-color: rgb(236, 134, 148); 
   }
