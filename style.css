@@ -1,7 +1,7 @@
 body {
-    background-color: black;
-    color:white;
-    font-size: 14px;
+    background: linear-gradient(35deg, #a7e2c8, #daa5ce);
+    font-size: 16px;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -11,6 +11,8 @@ header {
 
 #portrait img {
     height: 560px;
+    border: 8px solid rgb(21, 105, 13);
+    border-collapse: collapse;
 }
 
 section {
@@ -19,7 +21,8 @@ section {
 
 #myLife {
     font-size: 40px;
-    color: white;
+    color: black;
+
  }
 
 #myLife ul { 
@@ -28,7 +31,6 @@ section {
     padding-bottom: 24px;
     padding-left: 10px;
     margin: 10px;
-
 }
 
 #myLife ul li {
@@ -36,25 +38,26 @@ section {
 }
 
 #myLife ul li a {
-    color: rgb(31, 226, 226);
+    color: #fd00c2;
     text-decoration: none;
     font-size: 18px;
 }
 
 #myLife ul li a:hover {
-    color:rgb(240, 128, 0);
+    color:#000000;
 }
 
 h3 {
      margin: 20px;
-     padding-top: 30px;
-     color: rgb(240, 128, 0);
+     padding-top: 10px;
      font-size: 18px;
      font-style: italic;
+     color: black;
  }
 
 h2 {
     font-size: 22px;
+    color: black;
 }
 
 h1 {
@@ -62,25 +65,29 @@ h1 {
     padding: 10px;
 }
 
+p {
+    color:black;
+    text-align: center;
+    display: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+}
+
 img {
     height: 550px;
 }
 
+.flex-container {
+    justify-content: space-evenly;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+
 .center{
     margin-left: auto;
     margin-right: auto;
-}
-
-#hobbies div { 
-    text-align: center; 
-}
-
-#hobbies ul { 
-    display: inline-block; text-align: left; 
-}
-
-#music th {
-    color: rgb(240, 128, 0);
 }
 
 #hobbies {
@@ -89,98 +96,204 @@ img {
     margin-bottom: 40px;
 }
 
-p {
-    color:white;
-    text-align: center;
-    display: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+#hobbies div { 
+    text-align: center; 
 }
 
-#myInsta p {
-    margin-top: px;
-    margin-bottom: 5px;
-    padding-bottom: 30px;
-    padding-top: 1px;
-
+#hobbies ul { 
+    display: inline-block; 
+    text-align: left; 
+    color: black;
 }
 
-#myInsta a {
-    padding-top: 10px;
-    padding: 10px;
-    font-size: 14px;
-    color:khaki;
+#music th {
+    color: #fd00c2;
 }
 
-#mySpoti a {
-    padding-top: 10px;
-    padding: 10px;
-    font-size: 14px;
-    color:khaki;
+#music td {
+    color: black;
 }
 
-#mySpoti {
-    margin: 20px;
+#tournus img {
+    border: 8px solid rgb(236, 134, 148);
+    border-collapse: collapse;
 }
 
-#myInsta {
-    margin: 20px;
+#australia img {
+    border: 8px solid rgb(70, 49, 23);
+    border-collapse: collapse;
 }
 
+#colombia img {
+    border: 8px solid rgb(201, 55, 123);
+    border-collapse: collapse;
+}
 
-.flex-container {
-    justify-content: space-evenly;
-    margin: 10px;
-    padding-bottom: 20px;
-  }
+#lyon img {
+    border: 8px solid rgb(71, 62, 51);
+    border-collapse: collapse;
+}
+
+#paella img {
+    border: 8px solid rgb(219, 157, 41);
+    border-collapse: collapse;
+    height:550px;
+}
+
+#tapas img {
+    border: 8px solid rgb(49, 39, 30);
+    border-collapse: collapse;
+    height:700px;
+}
+
+#chocolo img {
+    border: 8px solid rgb(218, 163, 13);
+    border-collapse: collapse;
+    height: 480px;;
+}
+
+#ajiaco img {
+    border: 8px solid rgb(49, 49, 30);
+    border-collapse: collapse;
+    height: 450px;
+}
+
+#bandeja_paisa img {
+    border: 8px solid rgb(136, 36, 6);
+    border-collapse: collapse;
+    height: 450px;
+}
+
+#rokko img {
+    border: 8px solid rgb(17, 73, 12);
+    border-collapse: collapse;
+    height: 600px;
+}
+
+#helado img {
+    border: 8px solid rgb(49, 39, 30);
+    border-collapse: collapse;
+    height: 650px;
+}
+
+#ice_cream_waffles img {
+    border: 8px solid rgb(235, 19, 127);
+    border-collapse: collapse;
+    height:450px;
+}
+
+#camembert img {
+    border: 8px solid rgb(17, 73, 12);
+    border-collapse: collapse;
+    height:480px;
+}
+
+#apple img {
+    border: 8px solid rgb(49, 39, 30);
+    border-collapse: collapse;
+    height:500px;
+}
+
+#eggplant img {
+    border: 8px solid rgb(122, 37, 3);
+    border-collapse: collapse;
+    height:500px;
+}
+
+#salad img {
+    border: 8px solid rgb(21, 105, 13);
+    border-collapse: collapse;
+    height:550px;
+}
+
+#pasta img {
+    border: 8px solid rgb(17, 73, 12);
+    border-collapse: collapse;
+    height:550px;
+}
+
+#sushi img {
+    border: 8px solid rgb(11, 25, 90);
+    border-collapse: collapse;
+}
+
+#waffle img {
+    border: 8px solid rgb(107, 54, 19);
+    border-collapse: collapse;
+    height:600px;
+}
+
+#omelette img {
+    border: 8px solid rgb(158, 84, 23);
+    border-collapse: collapse;
+    height:500px;
+}
+
+#langos img {
+    border: 8px solid rgb(24, 121, 15);
+    border-collapse: collapse;
+}
+
+#mybabies img {
+    border: 8px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    height:480px;
+}
 
 table {
     display: center;
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     margin: 50px;
-  }
+}
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
 }
 
-.spoti {
-    background-color: black;
-    border: none;
-}
-
-.spoti:hover {
+#spoti:hover {
     cursor: pointer;
 }
 
-.spoti img {
-    height: 72px;
-    padding: 17px;
-    margin-bottom: 80px;
-}
-
-.insta {
+#spoti img {
+    height: 70px;
     background-color: black;
-    border: none;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
-.insta:hover {
+#insta:hover {
     cursor: pointer;
 }
 
-.insta img {
-    height: 60px;
-    padding:24px;
+#insta img {
+    height: 70px;
+    margin-right: 20px;
     margin-bottom: 40px;
 }
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; 
+    border: none;
+    background-color: rgb(235, 19, 127);
+    color: black; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px; 
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(236, 134, 148); 
+  }
