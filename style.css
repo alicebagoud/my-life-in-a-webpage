@@ -197,7 +197,7 @@ img {
 #eggplant img {
     border: 8px solid rgb(122, 37, 3);
     border-collapse: collapse;
-    height:300px;
+    height: 400px;
 }
 
 #salad img {
@@ -226,12 +226,13 @@ img {
 #omelette img {
     border: 8px solid rgb(158, 84, 23);
     border-collapse: collapse;
-    height:500px;
+    height:400px;
 }
 
 #langos img {
     border: 8px solid rgb(24, 121, 15);
     border-collapse: collapse;
+    height: 400px;
 }
 
 #mybabies img {
