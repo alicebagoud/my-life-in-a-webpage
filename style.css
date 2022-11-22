@@ -4,67 +4,38 @@ body {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 header {
     text-align: center;
 }
-
-#portrait img {
-    height: 560px;
-    border: 8px solid rgb(241, 157, 29);
-    border-collapse: collapse;
+.flex-container {
+    justify-content: space-evenly;
+    margin: 10px;
+    padding-bottom: 20px;
 }
-
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
+}
 section {
     text-align: center;
 }
-
-#myLife {
-    font-size: 40px;
-    color: rgb(22, 51, 212);
-
- }
-
-#myLife ul { 
-    display: flex;
-    justify-content:space-around;
-    padding-bottom: 24px;
-    padding-left: 10px;
-    margin: 10px;
+h1 {
+    margin: 30px;
+    padding: 10px;
 }
-
-#myLife ul li {
-    list-style: none;
+h2 {
+    font-size: 22px;
+    color: black;
 }
-
-#myLife ul li a {
-    color: #fd00c2;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-#myLife ul li a:hover {
-    color:#000000;
-}
-
 h3 {
      margin: 20px;
      padding-top: 10px;
      font-size: 18px;
      font-style: italic;
      color: black;
- }
-
-h2 {
-    font-size: 22px;
-    color: black;
 }
-
-h1 {
-    margin: 30px;
-    padding: 10px;
-}
-
 p {
     color:black;
     text-align: center;
@@ -74,178 +45,9 @@ p {
     padding-bottom: 30px;
     padding-top: 8px;
 }
-
-img {
-    height: 550px;
-}
-
-.flex-container {
-    justify-content: space-evenly;
-    margin: 10px;
-    padding-bottom: 20px;
-  }
-
-.center{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#hobbies {
-    text-align: center;
-    display: center;
-    margin-bottom: 40px;
-}
-
-#hobbies div { 
-    text-align: center; 
-}
-
-#hobbies ul { 
-    display: inline-block; 
-    text-align: left; 
-    color: black;
-}
-
-#music th {
-    color: #fd00c2;
-}
-
-#music td {
-    color: black;
-}
-
-#tournus img {
-    border: 8px solid rgb(236, 134, 148);
-    border-collapse: collapse;
-}
-
-#australia img {
-    border: 8px solid rgb(70, 49, 23);
-    border-collapse: collapse;
-}
-
-#colombia img {
-    border: 8px solid rgb(201, 55, 123);
-    border-collapse: collapse;
-}
-
-#lyon img {
-    border: 8px solid rgb(71, 62, 51);
-    border-collapse: collapse;
-}
-
-#paella img {
-    border: 8px solid rgb(219, 157, 41);
-    border-collapse: collapse;
-    height:550px;
-}
-
-#tapas img {
-    border: 8px solid rgb(49, 39, 30);
-    border-collapse: collapse;
-    height:700px;
-}
-
-#chocolo img {
-    border: 8px solid rgb(218, 163, 13);
-    border-collapse: collapse;
-    height: 480px;;
-}
-
-#ajiaco img {
-    border: 8px solid rgb(49, 49, 30);
-    border-collapse: collapse;
-    height: 450px;
-}
-
-#bandeja_paisa img {
-    border: 8px solid rgb(136, 36, 6);
-    border-collapse: collapse;
-    height: 450px;
-}
-
-#rokko img {
-    border: 8px solid rgb(17, 73, 12);
-    border-collapse: collapse;
-    height: 600px;
-}
-
-#helado img {
-    border: 8px solid rgb(49, 39, 30);
-    border-collapse: collapse;
-    height: 650px;
-}
-
-#ice_cream_waffles img {
-    border: 8px solid rgb(235, 19, 127);
-    border-collapse: collapse;
-    height:450px;
-}
-
-#camembert img {
-    border: 8px solid rgb(17, 73, 12);
-    border-collapse: collapse;
-    height:480px;
-}
-
-#apple img {
-    border: 8px solid rgb(49, 39, 30);
-    border-collapse: collapse;
-    height:500px;
-}
-
-#eggplant img {
-    border: 8px solid rgb(122, 37, 3);
-    border-collapse: collapse;
-    height: 400px;
-}
-
-#salad img {
-    border: 8px solid rgb(21, 105, 13);
-    border-collapse: collapse;
-    height:550px;
-}
-
-#pasta img {
-    border: 8px solid rgb(17, 73, 12);
-    border-collapse: collapse;
-    height:550px;
-}
-
-#sushi img {
-    border: 8px solid rgb(11, 25, 90);
-    border-collapse: collapse;
-}
-
-#waffle img {
-    border: 8px solid rgb(107, 54, 19);
-    border-collapse: collapse;
-    height:600px;
-}
-
-#omelette img {
-    border: 8px solid rgb(158, 84, 23);
-    border-collapse: collapse;
-    height:400px;
-}
-
-#langos img {
-    border: 8px solid rgb(24, 121, 15);
-    border-collapse: collapse;
-    height: 400px;
-}
-
-#mybabies img {
-    border: 5px solid rgb(0, 0, 0);
-    border-collapse: collapse;
-    height:480px;
-    margin: 10px;
-}
-
 table {
     display: center;
 }
-
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -254,19 +56,148 @@ table, th, td {
     padding-right: 30px;
     margin: 50px;
 }
+#portrait img {
+    height: 560px;
+    border: 8px solid rgb(241, 157, 29);
+    border-collapse: collapse;
+}
+#myLife {
+    font-size: 40px;
+    color: rgb(22, 51, 212);
 
-.container {
+ }
+#myLife ul { 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
+    padding-bottom: 24px;
+    padding-left: 10px;
+    margin: 10px;
+}
+#myLife ul li {
+    list-style: none;
+}
+#myLife ul li a {
+    color: #fd00c2;
+    text-decoration: none;
+    font-size: 18px;
+}
+#myLife ul li a:hover {
+    color:#000000;
+}
+#hobbies {
+    text-align: center;
+    display: center;
+    margin-bottom: 40px;
+}
+#hobbies div { 
+    text-align: center; 
+}
+#hobbies ul { 
+    display: inline-block; 
+    text-align: left; 
+    color: black;
+}
+.musicTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+#music th {
+    color: #fd00c2;
+}
+#music td {
+    color: black;
+}
+.flex-container img {
+    border-collapse: collapse;
+    width: 50%;
 }
 
-#spoti:hover {
-    cursor: pointer;
-    animation: bounce;
-    animation-name: bounce;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+#tournus img {
+    border: 8px solid rgb(236, 134, 148);
+}
+#australia img {
+    border: 8px solid rgb(70, 49, 23);
+}
+#colombia img {
+    border: 8px solid rgb(201, 55, 123);
+}
+#lyon img {
+    border: 8px solid rgb(71, 62, 51);
+}
+#paella img {
+    border: 8px solid rgb(219, 157, 41);
+}
+#tapas img {
+    border: 8px solid rgb(49, 39, 30);
+}
+#chocolo img {
+    border: 8px solid rgb(218, 163, 13);
+}
+#ajiaco img {
+    border: 8px solid rgb(49, 49, 30);
+}
+#bandeja_paisa img {
+    border: 8px solid rgb(136, 36, 6);
+}
+#rokko img {
+    border: 8px solid rgb(17, 73, 12);
+}
+#helado img {
+    border: 8px solid rgb(49, 39, 30);
+}
+#ice_cream_waffles img {
+    border: 8px solid rgb(235, 19, 127);
+}
+#camembert img {
+    border: 8px solid rgb(17, 73, 12);
+}
+#apple img {
+    border: 8px solid rgb(49, 39, 30);
+}
+#eggplant img {
+    border: 8px solid rgb(122, 37, 3);
+}
+#salad img {
+    border: 8px solid rgb(21, 105, 13);
+}
+#pasta img {
+    border: 8px solid rgb(17, 73, 12);
+}
+#sushi img {
+    border: 8px solid rgb(11, 25, 90);
+}
+#waffle img {
+    border: 8px solid rgb(107, 54, 19);
+}
+#omelette img {
+    border: 8px solid rgb(158, 84, 23);
+}
+#langos img {
+    border: 8px solid rgb(24, 121, 15);
+}
+#mybabies img {
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.gotopbtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; 
+    border: none;
+    background-color: rgb(235, 19, 127);
+    color: black; 
+    cursor: pointer; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px; 
+    text-decoration: none;
+}
+.gotopbtn:hover {
+    background-color: rgb(236, 134, 148); 
 }
 
 #spoti img {
@@ -275,19 +206,23 @@ table, th, td {
     border-radius: 50%;
     margin-left: 20px;
 }
-
-#insta:hover {
+#spoti:hover {
     cursor: pointer;
     animation: bounce;
     animation-name: bounce;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-
 #insta img {
     height: 70px;
     margin-right: 40px;
-    margin-bottom: 40px;
+}
+#insta:hover {
+    cursor: pointer;
+    animation: bounce;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
@@ -302,26 +237,3 @@ table, th, td {
         transform: translateY(0px); 
     }
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
-.gotopbtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99; 
-    border: none;
-    background-color: rgb(235, 19, 127);
-    color: black; 
-    cursor: pointer; 
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 14px; 
-    text-decoration: none;
-  }
-  
-  .gotopbtn:hover {
-    background-color: rgb(236, 134, 148); 
-  }
